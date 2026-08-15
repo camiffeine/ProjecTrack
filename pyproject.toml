@@ -1,0 +1,18 @@
+[project]
+name = "projectrack"
+version = "0.0.5"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncer==0.0.8",
+    "asyncio==3.4.3",
+    "bcrypt==4.3.0",
+    "fastapi-users",
+    "fastapi[standard]==0.115.8",
+    "passlib==1.7.4",
+    "pymongo==4.11.1",
+    "pytest==8.3.4",
+    "pytest-asyncio==0.25.3",
+    "python-dotenv==1.0.1",
+    "python-jose[cryptography]",
+    "requests==2.32.3",
+]
